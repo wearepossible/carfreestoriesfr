@@ -159,7 +159,7 @@ var map = new mapboxgl.Map({
     transformRequest: transformRequest
 });
 
-map.addControl(new MapboxBrowserLanguage({ defaultLanguage: 'fr' }));
+map.addControl(new MapboxLanguage({ defaultLanguage: 'fr' }));
 
 if (config.showMarkers) {
     var marker = new mapboxgl.Marker({ color: config.markerColor });
