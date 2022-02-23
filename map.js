@@ -22,7 +22,7 @@ function getLayerPaintType(layer) {
 
 function setLayerOpacity(layer) {
     var paintProps = getLayerPaintType(layer.layer);
-    paintProps.forEach(function(prop) {
+    paintProps.forEach(function (prop) {
         var options = {};
         if (layer.duration) {
             var transitionProp = prop + "-transition";
@@ -159,6 +159,11 @@ var map = new mapboxgl.Map({
     transformRequest: transformRequest
 });
 
+map.setLayoutProperty('country-label', 'text-field', [
+    'get',
+    `name_fr`
+])
+
 if (config.showMarkers) {
     var marker = new mapboxgl.Marker({ color: config.markerColor });
     marker.setLngLat(config.chapters[0].location.center).addTo(map);
@@ -167,7 +172,7 @@ if (config.showMarkers) {
 // instantiate the scrollama
 var scroller = scrollama();
 
-map.on("load", function() {
+map.on("load", function () {
     if (config.use3dTerrain) {
         map.addSource('mapbox-dem', {
             'type': 'raster-dem',
@@ -211,11 +216,11 @@ map.on("load", function() {
                 window[chapter.callback]();
             }
             if (chapter.rotateAnimation) {
-                map.once('moveend', function() {
+                map.once('moveend', function () {
                     const rotateNumber = map.getBearing();
                     map.rotateTo(rotateNumber + 90, {
                         duration: 24000,
-                        easing: function(t) {
+                        easing: function (t) {
                             return t;
                         }
                     });
