@@ -159,10 +159,7 @@ var map = new mapboxgl.Map({
     transformRequest: transformRequest
 });
 
-map.setLayoutProperty('country-label', 'text-field', [
-    'get',
-    `name_fr`
-])
+map.addControl(new MapboxBrowserLanguage({ defaultLanguage: 'fr' }));
 
 if (config.showMarkers) {
     var marker = new mapboxgl.Marker({ color: config.markerColor });
