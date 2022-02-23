@@ -1,0 +1,256 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Poppins, sans-serif;
+}
+a, a:hover, a:visited {
+    color: #BF0978;
+}
+
+ul>li{
+    display:inline-block;
+    padding: 0.5vh;
+    margin-bottom: 0.5vh;
+    background-color: #BF0978;
+}
+
+ul>li>a, ul>li>a:hover, ul>li>a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+#map {
+    top:0;
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+}
+#header {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    max-width: 750px;
+    text-align: center;
+    margin-top: 3vh;
+}
+#header h1, #header h2 {
+    margin: 0;
+    font-weight: 800;
+}
+
+#header img {
+    width: 50%;
+    padding-top: 3vh;
+}
+
+h1 {
+    padding: 2vh 3vw;
+    font-size: 350%;
+    color: #BF0978;
+    line-height: 100%;
+}
+
+h2 {
+    padding: 2vh 4vw;
+    font-size: 200%;
+}
+
+#intro {
+    padding: 1vh 0;
+}
+
+#intro p {
+    margin: 0;
+    padding: 1vh 4vw;
+    text-align: left;
+}
+
+#intro h3 {
+    padding: 1vh 4vw;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#minimap {
+    padding-bottom: 4vh; 
+}
+
+#minimap h3 {
+    padding: 1vh 4vw;
+    color: #BF0978;
+}
+
+#minimap svg {
+    width: 90%;
+    height: auto;
+    padding-bottom: 2vh;
+}
+
+#minimap ul {
+    width: 90%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 2vh;
+    padding-left: 0;
+    display: none;
+    max-width: 60%;
+}
+
+#minimap img {
+    display: inline-block;
+    max-width: 200px;
+    width: 70%;
+    padding-top: 0;
+}
+
+#features {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#buttonDiv {
+    text-align: center;
+}
+
+.ctaButton {
+    background-color: #BF0978;
+        border: none;
+        color: white !important;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 700;
+        margin: 1vw 1vw;
+        cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+.centered {
+    width: 50vw;
+    margin: 0 auto;
+}
+.lefty {
+    width: 33vw;
+    margin-left: 5vw;
+}
+.righty {
+    width: 33vw;
+    margin-left: 62vw;
+}
+.fully {
+    width: 100%;
+    margin: auto;
+}
+.light {
+    color: #321d49;
+    background-color: #fff;
+    outline: 4px dashed #BF0978;
+}
+.dark {
+    color: #fff;
+    background-color: #321d49;
+}
+.step {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    /* margin-bottom: 10vh; */
+    opacity: 0.25;
+}
+.step.active {
+    opacity: 0.9;
+}
+
+.step div {
+    padding:  25px 25px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.step img {
+    width: 100%;
+}
+
+@media (max-width: 750px) {
+    .centered, .lefty, .righty, .fully {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #header {
+        margin-top: 0;
+    }
+    #minimap svg {
+        display: none;
+    }
+    #minimap ul {
+        display: inline-block;
+    }
+    h1 {
+        font-size: 250%;
+        margin: 10px;
+    }
+    .step {
+        padding-top: 50vh;
+        padding-bottom: 10vh;
+    }
+    .Footer-nav-item {
+        margin: 0 5px !important;
+    }
+}
+
+#footer {
+    width: 100%;
+    background: #BF0978;
+    color: #fff;
+    font-size: 80%;
+    z-index: 5;
+    min-height: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    position: relative;
+}
+
+ul.share-buttons{
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.share-buttons li{
+    display: inline;
+  }
+  
+  ul.share-buttons .sr-only{
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+
+#footernav nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footernav nav a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+/* Fix issue on mobile browser where scroll breaks  */
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan, 
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+    touch-action: unset;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
