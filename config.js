@@ -28,45 +28,15 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }, {
-            id: 'freiburg',
-            alignment: 'left',
-            hidden: false,
-            title: "Fribourg : transformer la mobilité",
-            image: 'images/freiburg.jpg',
-            description: "<p>La ville de Fribourg est présentée comme la capitale allemande de l’environnement, en raison de la transformation de son système de transport. On le sait, plus le nombre de déplacements à pied ou à vélo est important, moins il y a d’émissions de CO2. En Allemagne, toutefois, le lobby automobile est puissant, et Fribourg a dû faire face à l’opposition des entreprises locales qui craignaient les potentiels effets négatifs des mesures de réduction du trafic. En dépit de cela, la ville a réussi à combiner transports publics et mobilités douces pour tripler le nombre de déplacements à vélo, doubler l’utilisation des transports en commun et réduire de 32 % les déplacements en voiture. Ainsi, plus des deux tiers des déplacements sont aujourd’hui effectués en transports en commun, à pied ou à vélo.</p><p>En 20 ans, le nombre de voitures et d’utilitaires par habitant a diminué à Fribourg, alors qu’il augmentait de façon générale en Allemagne. Le taux d’usage de la voiture était situé au-dessus de la moyenne nationale avant l’inversion de la vapeur autour de 1970. Le réseau de pistes cyclables, l’extension du rail léger, la piétonnisation et le développement de projets immobiliers de logements et de bureaux à proximité des transports en commun ont contribué à cette transition. En 1980, la voiture est passée au second plan par rapport aux déplacements à pied, à vélo ou en transports collectifs. En 2008, la ville disposait déjà de plusieurs rues exclusivement réservées aux cyclistes ; 9 habitants sur 10 résidaient dans des zones où le trafic était limité à 30 km/h.</p><p>Dans de nombreuses zones, la limite de vitesse est réduite à 7 km/h. Ces mesures ont fait de la ville un modèle de la transformation de la mobilité.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
-            location: {
-                center: [7.8421, 47.9990],
-                zoom: 11,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: 'nuremburg',
+            id: 'london',
             alignment: 'right',
             hidden: false,
-            title: 'Winning public approval in Nuremberg',
-            image: 'images/nuremberg.jpg',
-            description: "<p>Pour tenter de trouver des solutions aux embouteillages et à la pollution de l’air, le centre historique de Nuremberg a été progressivement piétonnisé à partir du début des années 1970. Ni le chaos qu’entrainerait, selon certains urbanistes, cette mesure ni la baisse de fréquentation prédite par les commerçants locaux n’ont eu lieu. La congestion supposée se déporter dans les rues adjacentes n’a pas non plus eu lieu. Le trafic n’a augmenté dans ces rues que de façon marginale, et le nombre de voitures a considérablement diminué.  En 1998, la dernière rue qui donnait accès au centre a été fermée, une mesure expérimentale largement contestée, notamment par les commerçants locaux. De nouveau, la congestion des rues adjacentes qui en découlerait n’a pas eu lieu. Au contraire, le trafic a été réduit d’environ 25 % en 12 mois, et n’a augmenté que de façon marginale dans les rues adjacentes. En 1998, ces mesures expérimentales ont été définitivement adoptées. Cette année-là, la pollution de l’air a baissé considérablement, les taux d’azote ayant chuté de près de 30 %. La ville a continué à améliorer la qualité de l’espace public dans le centre-ville grâce à de nouvelles mesures, qui ont entrainé une baisse du trafic deux fois plus importante que le taux estimé. Afin de mieux évaluer les effets de ces aménagements, qui avaient été précédés d’une large consultation publique, les flux de circulation ont été mesurés sur le long terme. Les embouteillages n’ont pas augmenté ailleurs dans la ville, au contraire, le trafic a continué à baisser dans les années qui ont suivi la mise en place des mesures. Le nombre de voitures particulières — qui était en augmentation — a baissé entre 1989 et 2000. On comptait 10 000 véhicules en moins dans les rues du centre-ville. </p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            title: "London : Les leçons du confinement",
+            image: 'images/london.jpg',
+            description: "<p>Londres, surnommé « The Big Smoke » (la grande fumée) est sans aucun doute la ville du Royaume-Uni où la pollution de l’air est la plus élevée. La qualité de l’air dans ses rues engorgées est souvent en deçà des seuils réglementaires.</p><p>Avant la pandémie, Londres a introduit des mesures radicales en matière de transport, dont notamment la <a href='https://www.london.gov.uk/press-releases/mayoral/mayor-introduces-10-toxicity-charge'>Toxicity charge</a>, taxe imposée aux véhicules les plus polluants circulant dans le centre-ville et une <a href='https://tfl.gov.uk/corporate/safety-and-security/road-safety/safe-speeds'>limitation de vitesse à 30 km/h </a>(20 miles par heures) dans la zone à péage du centre-ville. <a href='https://content.tfl.gov.uk/the-mayors-transport-strategy-update-2020-21-acc.pdf'>L’objectif</a> étant d’augmenter le nombre de trajets sans voiture de 64 % à 80 % en 2041.</p><p>Avec la pandémie de Covid-19, changer de modes de vie et de déplacement est devenu crucial. Durant les deux dernières années, Londres a introduit des mesures innovantes pour devenir une ville plus propre et plus verte.</p><p>Entre mars et septembre 2020, des <a href='https://static1.squarespace.com/static/6012c1c8eb0b5837ac26126b/t/6148f368c62fb147d0d2962e/1632170864677/LTNs+for+all.pdf'>zones à trafic limité</a> ont été créées à travers les différents quartiers de la ville, dans lesquelles la circulation est régulée de façon temporaire ou permanente pour réduire le trafic automobile.</p><p>Londres a également été l’une des premières villes à aménager des <a href='https://static1.squarespace.com/static/6012c1c8eb0b5837ac26126b/t/6148ecc753a17a53c9df3401/1632169164210/School+Streets+-+Possible.pdf'>« rues scolaires » </a>dans lesquelles le trafic est limité aux abords des écoles à certains moments de la journée, pour permettre aux élèves de se rendre à l’école, à pied, en trottinette ou à vélo, en toute sécurité. On comptait en, <a href='https://www.mumsforlungs.org/about-school-streets'>juillet 2021</a>, plus de 500 « rues scolaires » à travers la ville.</p><p>En avril 2019, Londres a introduit la première zone à très faibles émissions dont la superficie a été multipliée par 18 en octobre 2021. Depuis cette extension, <a href='https://www.london.gov.uk/sites/default/files/ulez_first_month_report_december_2021.pdf'>92 % des véhicules </a>circulant dans cette zone sont conformes aux critères de circulation fixés.</p><p>À Est London, dans le Hackney, et après des campagnes locales en faveur des « parklets » (des extensions de trottoir), le concept a été adopté. En signe de reconnaissance des <a href='https://hackney.gov.uk/parklets'>70 % des habitants de Hackney</a> qui ne possèdent pas de voiture, le conseil municipal expérimente actuellement pour la première fois au Royaume-Uni un plan de « parklets » urbains. Pour la seule année 2022, 15 parklets résidentiels sont prévus.</p><p>Alors que<a href='https://news.cityoflondon.gov.uk/air-pollution-in-the-city-of-london-drops-by-a-third-since-covid-19-lockdown/'> les niveaux de trafic ont été divisés par trois</a> pendant le confinement, en 2021 ils ont retrouvé les <a href='https://www.london.gov.uk/press-releases/mayoral/mayor-announces-bold-plans-for-a-greener-london'>niveaux d’avant la pandémie</a>. Au début de l’année 2022, le maire Sadiq Khan a indiqué que le trafic automobile doit être réduit d’au moins 27 % à Londres en 2030 pour répondre aux objectifs du changement climatique. Cet objectif est prometteur, mais pour que Londres devienne une <a href='https://www.theguardian.com/commentisfree/2022/jan/19/car-free-london-sadiq-khan-cut-traffic-health'>ville sans voiture</a>, il faut aller plus loin.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
             location: {
-                center: [11.0767, 49.4521],
-                zoom: 11,
+                center: [-0.1276, 51.5072],
+                zoom: 10,
                 pitch: 60,
                 bearing: 0
             },
@@ -77,33 +47,14 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'newdelhi',
+            id: 'paris',
             alignment: 'left',
             hidden: false,
-            title: 'New Delhi : réduire le trafic grâce à la circulation alternée ',
-            image: 'images/newdelhi.jpg',
-            description: "<p>New Delhi est l’endroit le plus pollué de la planète. Le trafic, qui n’a cessé d’augmenter, est un facteur majeur de la pollution de l’air. D’autres facteurs y contribuent également, comme la poussière issue des chantiers de construction, les usines, les centrales électriques, la combustion du fioul et l’écobuage. Pour diminuer les taux de particules fines dangereuses, une ordonnance de 1998 de la cour suprême imposait aux véhicules de transport public de passer du diesel aux GNV (gaz naturel véhicule). D’autres mesures comprenant l’utilisation de l’essence sans plomb et la réduction du souffre dans le fioul ont été adoptées. Les normes légales concernant les niveaux de pollution tolérés pour les véhicules ont également été révisées. Par ailleurs, l’incinération de déchets est désormais passible de sanctions. Cependant, l’effet de ces mesures a été neutralisé par l’augmentation du nombre de véhicules. Il a pratiquement doublé à Delhi en dix ans, entre 2002 et 2012, augmentant de 97 %.  Officiellement, le kérosène est interdit à Delhi, mais la plupart des ménages utilisent le GPL pour la cuisine. En dépit des mesures imposant l’utilisation de carburants propres dans les transports en commun, la pollution est responsable de 10 000 à 30 000 décès par an à Delhi, selon le Centre indien pour la science et l’environnement. En novembre 2016, la pollution aux particules fines a atteint des sommets : son taux a été multiplié par 10 par rapport à la limite fixée. Cette crise était à l’origine de la mise en place de la circulation alternée. La circulation des voitures particulières a pu être limitée pendant une courte période, grâce à ce système alternant la circulation des voitures selon qu’elles soient munies d’une plaque d’immatriculation finissant par un chiffre pair ou impair. Cette mesure a provoqué une forte opposition et a rencontré de nombreux obstacles juridiques. Neuf personnes sur 10 se seraient opposées à sa mise en œuvre, mais une majorité d’entre elles a changé d’avis par la suite. Selon les autorités de New Delhi, la pollution a enregistré des baisses allant jusqu’à 25 % pendant les deux semaines d’application du dispositif et les embouteillages ont diminué. Outre la sensibilisation du public, la circulation alternée a permis d’améliorer l’efficacité et les conditions de circulation des véhicules de transport public. Selon les chiffres officiels, les bus qui doivent parcourir 200 km par jour, et qui n’arrivaient à en couvrir que 160, ont réussi, au cinquième jour de l’expérience, à en parcourir 220. Le nombre de passagers des bus est passé de 4,7 millions à 5,3 millions par jour. Depuis sa mise en place initiale, la circulation alternée est régulièrement réintroduite lors des pics de pollution, lorsque la qualité de l’air baisse considérablement.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            title: 'Le plan de Paris pour purifier l’air ',
+            image: 'images/paris.jpg',
+            description: "<p>La maire de Paris, Anne Hidalgo, a un plan ambitieux pour réduire le nombre de voitures dans sa capitale. En réponse à la pandémie de la COVID-19, Paris a créé en urgence 52 km de pistes cyclables, « les coronapistes », sur les 650 km prévus. Les travaux ont été effectués en quelques semaines et les pistes délimitées à l’aide de plots et de blocs de béton. Comme d’autres villes anciennes, Paris n’est pas adapté au nombre de voitures qui circulent dans ses rues aujourd’hui. Plusieurs mesures avaient été introduites par le passé pour réduire les embouteillages et la pollution. En 2014, la ville a connu une détérioration importante de la qualité de son air. En réponse, la gratuité des transports en commun et un système de circulation alternée, sur le modèle de celui de la ville de Delhi, ont été mis en place pour inciter les automobilistes à abandonner leurs voitures. En dépit des pics de pollution, les mesures prises ont été critiquées par le leader de droite, Jean-François Copé, qui a dénoncé la « panique » qu’elles génèrent. En 2018, la ville a pris la décision d’interdire aux vieilles voitures et aux voitures à diésel de circuler entre 8 h et 20 h. Les voitures à diésel ne pourront plus circuler à partir de 2024 et les voitures à essence à partir de 2030. Ces mesures ont suscité l’opposition des lobbys d’automobilistes. Cependant, Hidalgo s’est représentée aux élections municipales de 2020 mettant au cœur de sa campagne la restriction de la circulation. Elle a été réélue en recueillant 20 % de voix de plus que son rival.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
             location: {
-                center: [77.216721, 28.644800],
-                zoom: 11,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'milan',
-            alignment: 'right',
-            hidden: false,
-            title: 'Milan, « la ville du quart d’heure »',
-            image: 'images/milan.jpg',
-            description: "<p>La ville de Milan en Italie est célèbre pour ses embouteillages. Elle a tenté à différents moments de trouver des solutions à ce problème. En 2012, les autorités de la ville ont adopté un système de péage urbain pour réduire le trafic et améliorer la qualité de l’air. Ce système a dû être abandonné à la suite de la plainte d’une entreprise de stationnement dont les affaires avaient prétendument été affectées par le péage. De façon assez surprenante, les conséquences de l’abandon du péage urbain, après plusieurs mois, ont été un retour immédiat du trafic. Durant la période d’application, il y a eu une baisse générale de 14,5 % du nombre de véhicules sur les routes, alors que seuls 19 % des véhicules étaient assujettis au péage. La ville a eu régulièrement recours à ce dispositif, mais la pandémie de COVID-19 a poussé la municipalité à adopter un plan plus ambitieux de réduction du trafic en ville.</p><p><strong>Rues ouvertes</strong><br /><p>Le plan Strade Aperte (Rues ouvertes) de la municipalité de Milan est considéré comme un modèle d’aménagement pour améliorer la qualité des centres urbains. Il a été adopté par les élus locaux, qui craignaient les effets des restrictions sanitaires imposées dans les transports en commun sur la santé et l’environnement, qui augmenteraient le recours à la voiture. Afin de permettre la distanciation sociale, les autorités locales ont entrepris de réduire l’espace consacré aux voitures et d’augmenter celui consacré aux piétons, aux cyclistes, aux vélos et aux motos électriques.  Les mesures prises — destinées à devenir pérennes — comprennent l’aménagement de 35 km de pistes cyclables, des trottoirs plus larges et des aires de jeux pour les enfants. Dans certaines rues, la priorité est donnée aux piétons et aux cyclistes, et dans de nombreuses zones, la limite de vitesse est réduite à 30 km/h. Dans le quartier de Lazaretto, une zone à trafic limité a été créée. Sur le Corso Buenos Aires, des pistes cyclables ont été aménagées le long des principales rues commerçantes, entre autres mesures de piétonnisation. Grâce à ces mesures, Milan a réussi à créer une dynamique du changement en Italie.</p><p><strong>La « ville du quart d’heure » : réinventer la vie en ville</strong><br />Les mesures prises par la ville de Milan s’inscrivent dans une vision plus large, qui vise à transformer les quartiers de Lazaretto et d’Isola en quartiers pilotes dans lesquels les activités essentielles à la vie seraient accessibles en moins de 15 minutes à pieds.</p><p><strong>« Places ouvertes », élargir et améliorer l’espace public</strong><br />Les grandes places italiennes sont des lieux qui illustrent l’importance d’un espace public de qualité dans la vie urbaine. Les « places ouvertes » sont un autre aspect des mesures prises par la ville de Milan. Dans le cadre de ce projet, 15 places ont été réaménagées sur une période de 18 mois pour élargir l’espace consacré aux piétons et aux modes actifs de déplacement, comme le vélo.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
-            location: {
-                center: [9.188540, 45.464664],
+                center: [2.3522, 48.8566],
                 zoom: 11,
                 pitch: 60,
                 bearing: 0
@@ -116,7 +67,7 @@ var config = {
         },
         {
             id: 'newyork',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Prospect Park West à New York',
             image: 'images/nyc.jpg',
@@ -132,16 +83,33 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
-        {
-            id: 'portland',
+        }, {
+            id: 'berlin',
+            alignment: 'left',
+            hidden: false,
+            title: "Berlin",
+            image: 'images/berlin.jpg',
+            description: "<p>À Berlin, seule une personne sur trois possède une voiture, mais une majorité possède un vélo. La récente <a href='https://www.berlin.de/sen/uvk/en/traffic/transport-policy/berlin-mobility-act/'>loi sur la mobilité</a>, ainsi que la nouvelle <a href='https://cities-today.com/berlin-introduces-pedestrian-law/'>législation en faveur des piétons</a> visent à accélérer la transition vers les transports publics, le vélo et la marche. Les habitants de Berlin continuent de se mobiliser pour une transformation plus ambitieuse vers une ville plus saine et plus accueillante. Une transformation permettant d’éliminer la majorité des derniers usages de la voiture.</p><p>Dans le cadre de la loi sur la mobilité, <a href='https://berlinspectator.com/2020/09/23/berlin-senates-plans-for-bicycle-highways-take-next-step/'>dix voies rapides cyclables</a>, ainsi que des pistes larges sont prévues pour connecter le centre et la périphérie de la ville. L’électrification des bus est prévue pour 2030 et le covoiturage sera favorisé. La loi vise également la neutralité carbone dans le trafic routier à l’horizon 2045. </p><p>La loi <a href='https://cities-today.com/berlin-introduces-pedestrian-law/'>en faveur des piétons</a> vise à renforcer le statut de piéton et à donner la priorité à la marche comme mode de déplacement. Elle comprend également un volet consacré à l’amélioration de la mobilité et des rues pour les adapter aux personnes porteuses de handicaps. Pour la première fois en Allemagne, la priorité de la mobilité des piétons serait inscrite dans la loi.</p><p>La pandémie de Covid-19 a aussi contribué à plusieurs innovations. Parmi elles, le système des « <a href='https://www.komodo.berlin/'>KoMoDo</a> » est particulièrement intéressant comme solution potentielle au problème des embouteillages causés par les véhicules de livraison des commandes sur Internet. Ce système des KoMoDo réunit cinq entreprises de livraison de gros colis, qui peuvent avoir recours à des vélos-cargos entreposés dans des microdépôts pour effectuer les derniers kilomètres de leurs courses. </p><p>Changer le système conçu pour les voitures aura de nombreux bénéfices pour les ménages les plus modestes à Berlin, mais aussi dans d’autres villes et métropoles. <a href='https://changing-cities.org/wer-in-berlin-auto-faehrt-ist-selten-arm/'>Les propriétaires de voitures sont parmi les habitants les plus riches,</a> ils sont 44 % à posséder une ou plusieurs voitures, contre seulement 22 % des habitants ayant des revenus modestes. Ces habitants les plus modestes bénéficieront réellement de l’évolution vers des modes de transport alternatifs.</p><p>Cependant, pour certains habitants, le rythme de la transition reste insuffisant. À Berlin, le groupe <a href='https://volksentscheid-berlin-autofrei.de/index.php?lang=en'>Berlin Autofrei</a> a commencé à travailler sur les premières étapes d’un processus législatif basé sur le principe du référendum populaire en vue d’interdire les trajets en voiture non essentiels dans le centre de Berlin. La convergence du soutien de principe apporté par les responsables pour renverser la vapeur, de l’innovation des entreprises et de la pression des citoyens fait de Berlin une référence pour ses efforts visant à devenir une ville sans voiture.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [13.405, 52.52],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        }, {
+            id: 'birmingham',
             alignment: 'right',
             hidden: false,
-            title: 'Portland : réduire les déplacements en voiture',
-            image: 'images/portland.jpg',
-            description: "<p>La ville de Portland dans l’Oregon tente depuis plusieurs années de réduire la place de la voiture grâce au réaménagement de ses rues. Dans les deux décennies qui ont suivi 1990, la ville a réduit la part de la voiture, des camions et des fourgonnettes dans les déplacements de 10 % environ. Les trajets à vélo ou en transports en commun ont augmenté de presque 20 %. Le nombre de trajets à vélo a presque été multiplié par 6, et celui en transports en commun a augmenté de plus de 50 %. Entrepris à partir de 2008, les grands travaux d’aménagement cyclable ont couté le prix d’un mile (environ 1,5 km) de voies rapides urbaines. En 2018, la municipalité a mis en place le plan Central City in Motion (Centre-ville en mouvement) visant à réduire les embouteillages. Ce plan de 72 millions de dollars, constitué de 18 grands projets, prévoyait la suppression de 1000 places de parking. Chacun de ces 18 projets comprenait l’aménagement de nouvelles voies de bus et pistes cyclables, dont 48 km de pistes « sans stress ». La population de la ville devrait croitre de façon importante dans les années à venir, sans nouvelles modalités de transport, plus vertes, le trafic pourrait augmenter de 47 %. En adoptant ce plan, Portland a emboité le pas à Seattle, qui a vu la création de 60 000 emplois dans son centre-ville. Mais, contrairement à Seattle, en investissant massivement dans les transports en commun, Portland a réussi à maintenir au même niveau le nombre de voitures en circulation. En 2020, Portland a investi 10 millions de dollars supplémentaires, qu’elle a consacrés au Rose Lane Project, afin de créer des voies réservées exclusivement soit aux bus, soit aux voitures. Les conseillers municipaux de la ville ont aujourd’hui l’ambition de transformer le centre-ville en zone sans voitures. Avec près de 805 kilomètres de pistes cyclables praticables, ou en cours d’aménagement — pour une petite proportion d’entre elles — la ville possède le taux le plus élevé de déplacements effectués à vélo.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            title: "Birmingham",
+            image: 'images/birmingham.jpg',
+            description: "<p>Birmingham est, après Londres, la deuxième ville la plus importante de l’Angleterre. Connue pour être une « ville autoroute », elle n’est pas le premier lieu qui vient à l’esprit quand il s’agit d’introduire des « zones d’air propre » (CAZ).</p><p>La ville est également connue pour son carrefour de Gravely Hill, surnommé le « carrefour-spaghetti », en raison de l’enchevêtrement de rues dont certaines relient trois autoroutes, tandis que d’autres déversent leur trafic dans le cœur de Birmingham. Ce réseau qui couvre 120 000 mètres carrés représentait en 1972, année de son achèvement, l’illustration parfaite du choix de donner la priorité à la voiture dans la planification urbaine.</p><p>Mais aujourd’hui, le quart des parcours des voitures étant de moins de <a href='https://www.theguardian.com/uk-news/2021/oct/04/birmingham-to-become-a-super-sized-low-traffic-neighbourhood'>deux kilomètres</a>, la ville vise à inverser la vapeur en réduisant le trafic non nécessaire pour devenir une « <a href='https://theconversation.com/birmingham-plans-to-become-a-supersized-low-traffic-neighbourhood-will-it-work-170131'>zone étendue à trafic limité</a> ». </p><p>Suivant l’exemple de Gent en Belgique, Birmingham a mis en place, durant la pandémie, un plan <a href='https://www.birmingham.gov.uk/info/50250/active_travel_fund/2203/places_for_people'>Places for People</a>, visant à aménager les rues pour permettre aux enfants de jouer et aux habitants de se promener, de faire du vélo et de se rencontrer. Le plan visait également à créer un environnement plus propre, plus sûr et moins pollué, en limitant le trafic.</p><p>Les responsables de la ville se sont inspirés des mesures du plan pour Waltham Forest de la municipalité de Londres. Mesures qui ont contribué à réduire le trafic et à augmenter l’espérance de vie, les mobilités actives et le commerce local. Ce dernier point est important, car l’argument de l’effet néfaste sur l’économie est souvent brandi par les opposants à la limitation du trafic, alors qu’en réalité, c’est <a href='https://www.newsroom.co.nz/ideasroom/parking-kills-businesses-not-bikes-or-buses'>l’effet inverse qui se produit</a>. </p><p>Ces problématiques étant désormais mieux comprises, la transition de Birmingham pour devenir une ville plus accueillante devrait en être facilitée. Au début de 2022, en parallèle des consultations qui se poursuivaient, la ville expérimentait les zones d’air propres, notamment dans les quartiers Kings Heath, Lozells Moseley, Bournville et Castle Vale.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
             location: {
-                center: [-122.6750, 45.5051],
+                center: [-1.8904, 52.4862],
                 zoom: 11,
                 pitch: 60,
                 bearing: 0
@@ -172,14 +140,14 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'stockholm',
+            id: 'bristol',
             alignment: 'right',
             hidden: false,
-            title: 'Stockholm : le péage urbain s’impose après une violente contestation',
-            image: 'images/stockholm.jpg',
-            description: "<p>En 2006, la ville de Stockholm en Suède a mis en place un système de péage urbain pour tenter de réduire le trafic routier. Ce système était très peu couteux et très efficace. Le tarif fixé à 2 euros par automobiliste a permis de réduire le trafic de 20 % aux heures de pointe. Au départ, ce péage routier avait suscité une vive opposition de la part de 70 % de la population. Par la suite, la situation a radicalement changé en 2011, cinq ans après la mise en place du péage. L’opposition s’était transformée en adhésion de 70 % de la population. Cette mesure a mis en évidence deux éléments importants : le premier est la vitesse à laquelle les automobilistes réagissent à ce type de mesures. Lorsque cette mesure avait été suspendue au milieu de l’année 2006, la circulation avait retrouvé, en 24 heures, ses niveaux d’avant.  Le second concerne la façon dont la population s’adapte aux mesures introduites. Certains ne se souvenaient plus de s’y être opposés au départ ou ne voulaient pas l’admettre. Ces résultats ont été mis en évidence par des études sur le changement d’attitude des automobilistes. Ils n’ont pas été corroborés, car un nombre important des automobilistes enquêtés prétendaient avoir toujours été en faveur des péages.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            title: 'Bristol',
+            image: 'images/bristol.jpg',
+            description: "<p>Bristol aujourd’hui est loin d’être une ville sans voiture, mais cette cité située au sud-ouest de l’Angleterre illustre parfaitement les problèmes auxquels sont confrontées les villes en matière de réduction du trafic et les solutions apportées. Une avancée en ce sens a été réalisée à <a href='https://www.bristol.gov.uk/streets-travel/bristol-caz'>l’été 2022</a> avec la mise en place de « zones d’air propre » (Clean Air Zone).</p><p>À l’instar de nombreuses autres villes pendant la pandémie,<a href='https://news.bristol.gov.uk/streets-travel/covid-19-road-changes'> Bristol a ouvert</a> aux piétons et aux cyclistes des espaces habituellement réservés à la voiture (pour permettre à la ville de profiter de la baisse de la pollution de l’air), mais également aux commerçants.</p><p>Les responsables de la ville ont poussé plus loin leur ambition, indiquant dans<a href='https://committees.parliament.uk/writtenevidence/13252/pdf/'> un document écrit</a> adressé à un comité de la Chambre des communes que « l’ambition à long terme du conseil, outre les plans en cours pour la mise en place d’un système de transports en commun, est de pérenniser les nouveaux aménagements de rues, pour améliorer la qualité de l’air, faciliter les déplacements en bus, à vélo ou à pied ».</p><p>Selon la municipalité, et grâce au changement des habitudes de déplacement, les niveaux de pollution de l’air ont été quasiment divisés par deux. En plein confinement, le trafic a baissé de 85 %, tandis que le recours à la marche ou au vélo a considérablement augmenté.</p><p>Bristol a également fait l’objet de <a href='https://info.uwe.ac.uk/news/UWENews/news.aspx?id=4176'>recherches innovantes</a> confirmant <a href='https://www.icevirtuallibrary.com/doi/full/10.1680/muen.2002.151.1.13'>« l’évaporation du trafic »</a> (phénomène par lequel la fermeture des rues conduit à renoncer à utiliser sa voiture). Mais selon le Centre for Transport and Society de l’université de Bristol, la fermeture des grandes voies est une mesure plus efficace. </p><p>À Bristol, les habitants ont maintenant<a href='https://liveablebristol.org.uk/'> envie de changement</a>. Ils veulent des quartiers conçus pour les piétons, sur le modèle européen, où tout est accessible en 15 minutes. La rénovation de<a href='https://www.academyofurbanism.org.uk/queen-square/'> Queen’s Square</a> donne un aperçu des mesures que la ville pourrait étendre à l’ensemble de son territoire, qui montrent que donner la priorité aux habitants contribue à améliorer considérablement la qualité de l’espace public.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
             location: {
-                center: [18.0686, 59.3293],
+                center: [-2.5879, 51.4545],
                 zoom: 11,
                 pitch: 60,
                 bearing: 0
@@ -191,14 +159,62 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'madrid',
+            id: 'curitiba',
             alignment: 'left',
             hidden: false,
-            title: 'Madrid : les habitants soutiennent la transition face à l’immobilité des politiques',
-            image: 'images/madrid.jpg',
-            description: "<p>La capitale espagnole, Madrid, une autre ville européenne embouteillée, avait pris des mesures de réduction du trafic avant la pandémie de COVID-19. Elle a suivi l’exemple d’autres villes, comme Pontevedra au Nord, illustration vivante des avantages de la piétonnisation et des transformations à l’échelle locale. Dans cette ville, les 300 000 m2 du centre ont été piétonnisés en 1999, générant de nombreux avantages économiques, sociaux et sanitaires. Depuis l’interdiction des voitures, Pontevedra a connu une chute draconienne du nombre d’accidents de la circulation. Les incivilités et la pollution ont également été réduites. Les trois quarts des trajets effectués auparavant en voiture se font aujourd’hui à vélo ou à pied, entrainant des effets bénéfiques sur la santé des habitants.  Madrid a décidé à son tour de réduire le trafic afin d’améliorer la qualité de vie en ville et de rendre ses rues plus accueillantes. En 2018, elle a décrété son centre-ville comme « zone à faible émission », en interdisant l’accès à la plupart des voitures. Les mesures adoptées ont dès le départ remporté l’adhésion populaire. La majorité de la population, 64 %, a apporté son soutien au projet. En quelques mois, le niveau de pollution au dioxyde d’azote, gaz toxique émis par les voitures, a été réduit de 48 %. Cependant, en 2019, le parti de droite qui a remporté les élections municipales a suspendu les mesures de réduction du trafic. En réponse, la Plataforma en Defensa de Madrid Central (Plateforme de défense du centre de Madrid) a organisé une grande manifestation réclamant le maintien des mesures. À la suite d’une plainte, un juge administratif a annulé la décision du conseil municipal de suspendre les mesures, qui ont depuis été réintroduites.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            title: 'Curitiba : où le bus est roi',
+            image: 'images/curitiba.jpg',
+            description: "<p>Lorsque la ville moderne de Curitiba a connu une extension rapide au XXe siècle, elle s’est fortement distinguée des autres zones urbaines connaissant la même croissance. Elle a fait le choix d’aménager des zones piétonnes plutôt que d’éventrer son centre par de grandes voies. Elle a été surnommée <a href='https://core.ac.uk/download/pdf/25988023.pdf'>« capitale écologique du Brésil »</a> en raison des nombreux parcs créés et de son projet de plantation d’arbres. </p><p>La question des modes de déplacement était l’un des défis majeurs face à la croissance urbaine. Avant 1960, Curitiba semblait prête à l’instar d’autres innombrables villes à adopter la <a href='https://escholarship.org/uc/item/1wh7z9zr'>culture automobile</a>.</p><p>Mais, pour répondre aux problèmes de plus en plus nombreux de la ville, notamment la surpopulation et les embouteillages, les responsables locaux ont lancé un concours pour repenser le développement de Curitiba. En 1965, un nouveau projet a été adopté visant à sortir de la voiture. Des initiatives permettant de supprimer la voiture du centre-ville ont vu le jour. Elles ont suscité une très large participation de la population. </p><p>À quoi allait ressembler le nouveau système ? La solution imaginée par la ville était de mettre en place un large réseau de bus rapide de transport en commun. Les premières voies ont été créées en 1974. En 1980, des stations terminus, similaires aux stations de métro souterraines, ont été aménagées et, en 1991, des plateformes tubulaires ont été construites pour améliorer l’attractivité et le confort du système, qui présentait les caractéristiques d’un système mixte métro-bus.  </p><p>Par ailleurs, et progressivement, une tarification unique a été adoptée pour que le prix ne soit pas un obstacle pour les usagers les plus modestes, ou ceux qui doivent effectuer des trajets plus longs.</p><p>Aujourd’hui, ce système de bus à haut niveau de service (BRT) couvre 8 villes voisines, transportant <a href='https://www.solutions-site.org/node/83'>1,9 million de passagers quotidiennement. Il remporterait l’adhésion de 89 % de la population.</a></p><p>Pour résoudre le problème des embouteillages persistants <a href='https://blogs.iadb.org/ciudades-sostenibles/en/urban-planning-three-lessons-learned-in-curitiba/'>qui entravent la circulation des transports publics</a>,<a href='http://cyclists-world.com/onewebmedia/93-100_Quality%20of%20Life%20and%20Bicycles%20-%20%20How%20Curitiba%20has%20become%20one%20of%20the%20world%C3%94%C3%87%C3%96s%20most%20liveable%20cities.pdf'> un plan vélo a été adopté en 2013</a>, visant à réaménager 100 km de pistes cyclables existantes, à créer un réseau de 200 km de nouvelles pistes et des places de stationnement pour vélos dans l’ensemble des terminus de bus et des parcs de la ville. </p><p>L’exemple de Curitiba nous livre deux leçons : l’importance de la planification globale à long terme qui donne la priorité aux habitants et celle de l’ouverture d’esprit, de l’innovation et de la volonté d’amélioration.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
             location: {
-                center: [-3.7038, 40.4168],
+                center: [-49.27, -25.4372],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        }, {
+            id: 'freiburg',
+            alignment: 'right',
+            hidden: false,
+            title: "Fribourg : transformer la mobilité",
+            image: 'images/freiburg.jpg',
+            description: "<p>La ville de Fribourg est présentée comme la capitale allemande de l’environnement, en raison de la transformation de son système de transport. On le sait, plus le nombre de déplacements à pied ou à vélo est important, moins il y a d’émissions de CO2. En Allemagne, toutefois, le lobby automobile est puissant, et Fribourg a dû faire face à l’opposition des entreprises locales qui craignaient les potentiels effets négatifs des mesures de réduction du trafic. En dépit de cela, la ville a réussi à combiner transports publics et mobilités douces pour tripler le nombre de déplacements à vélo, doubler l’utilisation des transports en commun et réduire de 32 % les déplacements en voiture. Ainsi, plus des deux tiers des déplacements sont aujourd’hui effectués en transports en commun, à pied ou à vélo.</p><p>En 20 ans, le nombre de voitures et d’utilitaires par habitant a diminué à Fribourg, alors qu’il augmentait de façon générale en Allemagne. Le taux d’usage de la voiture était situé au-dessus de la moyenne nationale avant l’inversion de la vapeur autour de 1970. Le réseau de pistes cyclables, l’extension du rail léger, la piétonnisation et le développement de projets immobiliers de logements et de bureaux à proximité des transports en commun ont contribué à cette transition. En 1980, la voiture est passée au second plan par rapport aux déplacements à pied, à vélo ou en transports collectifs. En 2008, la ville disposait déjà de plusieurs rues exclusivement réservées aux cyclistes ; 9 habitants sur 10 résidaient dans des zones où le trafic était limité à 30 km/h.</p><p>Dans de nombreuses zones, la limite de vitesse est réduite à 7 km/h. Ces mesures ont fait de la ville un modèle de la transformation de la mobilité.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [7.8421, 47.9990],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ghent',
+            alignment: 'left',
+            hidden: false,
+            title: 'À Gand, les voitures n’ont pas la priorité',
+            image: 'images/ghent.jpg',
+            description: "<p>Gand est devenue, grâce au courage politique de ses gouvernants et à leur ténacité face aux oppositions, un exemple en matière de politique de transports. Les rues et les places étroites de cette ville médiévale étaient saturées par le trafic dès les années 1980. En 1987, la ville a tenté de prendre des mesures pour réduire le trafic et les embouteillages, la pollution de l’air et la pollution sonore, et pour améliorer les infrastructures cyclables, piétonnes et les transports en commun. Le plan adopté a cependant été abandonné cinq mois après sa mise en place en raison d’une contestation violente de la part des commerçants.  Un plan vélo a été adopté en 1993, suivi en 1997 d’un plan mobilité concernant le centre-ville. Avant l’adoption du plan, 300 auditions publiques ont eu lieu en 1996, dans le cadre d’une consultation générale concernant les mesures proposées. Les fermetures de rues prévues avaient été également communiquées au préalable à travers différents moyens et supports de communication : radio, télévision, cartes et affiches. Les foyers ont été informés des réformes par courrier et une ligne téléphonique d’information a été installée. Du jour au lendemain, en novembre 1997, et en dépit de la contestation, le centre-ville a été interdit au trafic.  Les embouteillages qu’entraineraient de telles mesures, contre lesquels les opposants ont tant mis en garde, n’ont jamais eu lieu. Le nombre de voyages en transports en commun a augmenté, le centre a été piétonnisé et investi de diverses activités culturelles, pour le rendre plus accueillant et pour attirer les habitants et les visiteurs. En plus de l’infrastructure cyclable, notamment 300 km de pistes et 7 500 vélos de location, la ville a œuvré à instiller la culture du vélo à travers des expositions d’arts visant à susciter l’intérêt du public pour le vélo. À Gand, il est désormais plus rapide de se déplacer à vélo qu’en voiture. En 10 ans, la part des déplacements à vélo est passée de 12 % à 20 %, plus du double de la moyenne nationale. L’ambition de la ville, qui a reçu en 2012 le prix international Eurostar Ashden pour la mobilité durable, est de devenir une ville zéro carbone en 2050.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [3.7174, 51.0543],
                 zoom: 11,
                 pitch: 60,
                 bearing: 0
@@ -229,14 +245,204 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'paris',
+            id: 'kajaani',
             alignment: 'left',
             hidden: false,
-            title: 'Le plan de Paris pour purifier l’air ',
-            image: 'images/paris.jpg',
-            description: "<p>La maire de Paris, Anne Hidalgo, a un plan ambitieux pour réduire le nombre de voitures dans sa capitale. En réponse à la pandémie de la COVID-19, Paris a créé en urgence 52 km de pistes cyclables, « les coronapistes », sur les 650 km prévus. Les travaux ont été effectués en quelques semaines et les pistes délimitées à l’aide de plots et de blocs de béton. Comme d’autres villes anciennes, Paris n’est pas adapté au nombre de voitures qui circulent dans ses rues aujourd’hui. Plusieurs mesures avaient été introduites par le passé pour réduire les embouteillages et la pollution. En 2014, la ville a connu une détérioration importante de la qualité de son air. En réponse, la gratuité des transports en commun et un système de circulation alternée, sur le modèle de celui de la ville de Delhi, ont été mis en place pour inciter les automobilistes à abandonner leurs voitures. En dépit des pics de pollution, les mesures prises ont été critiquées par le leader de droite, Jean-François Copé, qui a dénoncé la « panique » qu’elles génèrent. En 2018, la ville a pris la décision d’interdire aux vieilles voitures et aux voitures à diésel de circuler entre 8 h et 20 h. Les voitures à diésel ne pourront plus circuler à partir de 2024 et les voitures à essence à partir de 2030. Ces mesures ont suscité l’opposition des lobbys d’automobilistes. Cependant, Hidalgo s’est représentée aux élections municipales de 2020 mettant au cœur de sa campagne la restriction de la circulation. Elle a été réélue en recueillant 20 % de voix de plus que son rival.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            title: 'Kajaani : apaiser le centre-ville en diminuant le nombre de voitures',
+            image: 'images/kajaani.jpg',
+            description: "<p>La ville de Kajaani était déjà en déclin dans les années 1990. Les mesures pour interdire le centre-ville aux voitures ont fait l’objet de débats houleux pendant près de 20 ans. En 1996, la décision a été prise d’appliquer, à partir de 1998, les mesures de réduction du trafic dans le cadre d’un plan plus large visant à redynamiser le centre-ville. Après la mise en place de ces mesures, le trafic dans le centre ne s’est pas déporté vers les rues voisines, mais il a tout simplement « disparu », les habitants s’étant tournés vers les transports en commun et les mobilités actives. Les enquêtes conduites avant et après cette expérience ont montré un changement positif net dans l’attitude de la population vis-à-vis du centre-ville. Avant l’introduction des changements, 60 % des habitants affirmaient que la ville était un endroit agréable à vivre, 47 % qualifiaient le centre de « beau ». À la suite des transformations, ces proportions ont crû de 20 % et de 8 % respectivement.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
             location: {
-                center: [2.3522, 48.8566],
+                center: [27.7278, 64.2222],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'kigali',
+            alignment: 'right',
+            hidden: false,
+            title: 'Kigali : la journée sans voiture souffle un vent de changement',
+            image: 'images/kigali.jpg',
+            description: "<p>Kigali, la capitale du Rwanda célèbre régulièrement la journée sans voiture. Cette journée avait lieu un dimanche par mois, mais son succès a été tel qu’elle est désormais célébrée tous les 15 jours, <a href='https://www.climate-chance.org/bonne-pratique/kigali-car-free-day/%20'>le premier et le troisième dimanche du mois</a>. <a href='https://www.climate-chance.org/bonne-pratique/kigali-car-free-day/'>La mairie de Kigali</a>, en partenariat avec le <a href='https://rbc.gov.rw/index.php?id=188'>Rwanda Biomedical Centre</a> a mis en place la journée sans voiture en 2016. Cette initiative a depuis conquis <a href='https://www.theeastafrican.co.ke/tea/business/rwanda-s-car-free-day-success-attracts-other-countries-1412776'>d’autres villes africaines</a>. </p><p> Outre qu’elle contribue au verdissement de la ville, la journée sans voiture de Kigali, favorise la pratique du sport et un mode de vie sain. <a href='https://www.localguidesconnect.com/t5/General-Discussion/The-Car-Free-day-in-Kigali/td-p/1252448'>Une route de 10 kilomètres</a> est fermée aux voitures entre sept heures et onze heures. Au centre, on y pratique des activités physiques et des entrainements encadrés. <a href='https://crossriverpartnership.org/news/international-car-free-days-an-inspiration-to-the-uk/'>Des consultations médicales gratuites</a> sont également organisées pendant cette journée. Après une pause au pic de la pandémie, la journée sans voiture a fait son retour. Cette manifestation est décrite comme « <a href='https://www.kigalicity.gov.rw/index.php?id=131&amp;tx_news_pi1%5bnews%5d=91&amp;tx_news_pi1%5bcontroller%5d=News&amp;tx_news_pi1%5baction%5d=detail&amp;cHash=101e8f56902e60deac529b86848e1eb0'>un évènement récréatif très attendu</a> », une occasion de socialiser et de soutenir les commerces locaux.</p><p>La journée sans voiture à Kigali a été introduite en même temps que la <a href='https://www.igihe.com/amafoto-1922/article/ifoto-y-umunsi-car-free-zone-mu-isura-nshya'>zone sans voiture</a>, annoncée en 2015. Cette zone sans voiture,<a href='https://www.newtimes.co.rw/opinions/why-have-we-let-kigali-car-free-zone-become-kigali-dead-zone'> critiquée </a>au départ, s’est développée et a <a href='https://www.newtimes.co.rw/news/kigalis-car-free-zone-get-facelift-rebranded'>considérablement évolué</a> en 2021. La Imbuga City Walk, comme on l’appelle, possède des aires piétonnes, des chaussées adaptées aux deux roues, des arbres, un espace d’exposition, des terrains de jeux, des bancs, le wi-fi et des toilettes publiques. En 2022, des travaux ont été entrepris pour intégrer <a href='https://www.ktpress.rw/2022/01/kigali-develops-new-car-free-zone-expands-in-biryogo/'>trois autres rues</a> à cette zone.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [30.0619, -1.9441],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'madrid',
+            alignment: 'left',
+            hidden: false,
+            title: 'Madrid : les habitants soutiennent la transition face à l’immobilité des politiques',
+            image: 'images/madrid.jpg',
+            description: "<p>La capitale espagnole, Madrid, une autre ville européenne embouteillée, avait pris des mesures de réduction du trafic avant la pandémie de COVID-19. Elle a suivi l’exemple d’autres villes, comme Pontevedra au Nord, illustration vivante des avantages de la piétonnisation et des transformations à l’échelle locale. Dans cette ville, les 300 000 m2 du centre ont été piétonnisés en 1999, générant de nombreux avantages économiques, sociaux et sanitaires. Depuis l’interdiction des voitures, Pontevedra a connu une chute draconienne du nombre d’accidents de la circulation. Les incivilités et la pollution ont également été réduites. Les trois quarts des trajets effectués auparavant en voiture se font aujourd’hui à vélo ou à pied, entrainant des effets bénéfiques sur la santé des habitants.  Madrid a décidé à son tour de réduire le trafic afin d’améliorer la qualité de vie en ville et de rendre ses rues plus accueillantes. En 2018, elle a décrété son centre-ville comme « zone à faible émission », en interdisant l’accès à la plupart des voitures. Les mesures adoptées ont dès le départ remporté l’adhésion populaire. La majorité de la population, 64 %, a apporté son soutien au projet. En quelques mois, le niveau de pollution au dioxyde d’azote, gaz toxique émis par les voitures, a été réduit de 48 %. Cependant, en 2019, le parti de droite qui a remporté les élections municipales a suspendu les mesures de réduction du trafic. En réponse, la Plataforma en Defensa de Madrid Central (Plateforme de défense du centre de Madrid) a organisé une grande manifestation réclamant le maintien des mesures. À la suite d’une plainte, un juge administratif a annulé la décision du conseil municipal de suspendre les mesures, qui ont depuis été réintroduites.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [-3.7038, 40.4168],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'medellin',
+            alignment: 'right',
+            hidden: false,
+            title: 'Medellín : plus de transports et d’espace publics et moins de violence',
+            image: 'images/medellin.jpg',
+            description: "<p>Medellín, deuxième plus grande ville de Colombie, illustre parfaitement la façon dont la réinvention audacieuse de l’espace public et l’innovation dans les transports en commun permettent de faire face aux menaces et aux obstacles. Avant de connaître une incroyable transformation dans les années 2000, Medellín était au début des années 1990, la ville la plus violente du monde. Elle est aujourd’hui mondialement reconnue comme un lieu de tourisme et d’innovation avec une société civile très active. L’architecture de la ville et ses infrastructures publiques inspirent aujourd’hui les urbanistes du monde entier. Cette transformation a été rendue possible grâce à la collaboration d’universitaires, d’acteurs locaux et d’entrepreneurs à la fin des années 1990, qui ont travaillé avec la population pour trouver des solutions aux problèmes de la ville. Ensemble, ils ont proposé d’investir dans l’éducation, les infrastructures et les espaces publics de la ville. Ce groupe a pris le nom de Compromiso Ciudadano (Engagement citoyen), devenu depuis un parti politique. En 2003, le candidat du parti aux élections municipales, Sergio Farjado, a été élu grâce aux propositions de son mouvement. Farjado a consacré son mandat à « régler la dette sociale et historique » envers les quartiers les plus pauvres de la ville. Les réformes conduites ont notamment permis la création de nouveaux espaces publics, des écoles, des parcs et des bibliothèques publiques. Elles ont aussi créé des subventions destinées aux commerçants installés dans les quartiers les plus pauvres de la ville.  Le processus participatif mis en place pour réinventer la ville a permis l’émergence d’une culture civique dynamique, toujours vivante. L’un des éléments essentiels à cette transformation sociale et sécuritaire est la transformation de l’espace physique, devenu plus inclusif. Ce processus a été facilité par la nouvelle constitution adoptée en 1991, reconnaissant l’espace public comme un droit constitutionnel. Les maires de la ville se sont appuyés sur cet article pour conduire leurs réformes.  Aujourd’hui, la ville de Medellín possède le réseau de transports en commun durable le plus évolué de Colombie. La construction d’une ceinture verte autour de la ville a permis d’augmenter et d’améliorer la qualité des espaces verts dans la ville.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [-75.5658, 6.2476],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'milan',
+            alignment: 'left',
+            hidden: false,
+            title: 'Milan, « la ville du quart d’heure »',
+            image: 'images/milan.jpg',
+            description: "<p>La ville de Milan en Italie est célèbre pour ses embouteillages. Elle a tenté à différents moments de trouver des solutions à ce problème. En 2012, les autorités de la ville ont adopté un système de péage urbain pour réduire le trafic et améliorer la qualité de l’air. Ce système a dû être abandonné à la suite de la plainte d’une entreprise de stationnement dont les affaires avaient prétendument été affectées par le péage. De façon assez surprenante, les conséquences de l’abandon du péage urbain, après plusieurs mois, ont été un retour immédiat du trafic. Durant la période d’application, il y a eu une baisse générale de 14,5 % du nombre de véhicules sur les routes, alors que seuls 19 % des véhicules étaient assujettis au péage. La ville a eu régulièrement recours à ce dispositif, mais la pandémie de COVID-19 a poussé la municipalité à adopter un plan plus ambitieux de réduction du trafic en ville.</p><p><strong>Rues ouvertes</strong><br /><p>Le plan Strade Aperte (Rues ouvertes) de la municipalité de Milan est considéré comme un modèle d’aménagement pour améliorer la qualité des centres urbains. Il a été adopté par les élus locaux, qui craignaient les effets des restrictions sanitaires imposées dans les transports en commun sur la santé et l’environnement, qui augmenteraient le recours à la voiture. Afin de permettre la distanciation sociale, les autorités locales ont entrepris de réduire l’espace consacré aux voitures et d’augmenter celui consacré aux piétons, aux cyclistes, aux vélos et aux motos électriques.  Les mesures prises — destinées à devenir pérennes — comprennent l’aménagement de 35 km de pistes cyclables, des trottoirs plus larges et des aires de jeux pour les enfants. Dans certaines rues, la priorité est donnée aux piétons et aux cyclistes, et dans de nombreuses zones, la limite de vitesse est réduite à 30 km/h. Dans le quartier de Lazaretto, une zone à trafic limité a été créée. Sur le Corso Buenos Aires, des pistes cyclables ont été aménagées le long des principales rues commerçantes, entre autres mesures de piétonnisation. Grâce à ces mesures, Milan a réussi à créer une dynamique du changement en Italie.</p><p><strong>La « ville du quart d’heure » : réinventer la vie en ville</strong><br />Les mesures prises par la ville de Milan s’inscrivent dans une vision plus large, qui vise à transformer les quartiers de Lazaretto et d’Isola en quartiers pilotes dans lesquels les activités essentielles à la vie seraient accessibles en moins de 15 minutes à pieds.</p><p><strong>« Places ouvertes », élargir et améliorer l’espace public</strong><br />Les grandes places italiennes sont des lieux qui illustrent l’importance d’un espace public de qualité dans la vie urbaine. Les « places ouvertes » sont un autre aspect des mesures prises par la ville de Milan. Dans le cadre de ce projet, 15 places ont été réaménagées sur une période de 18 mois pour élargir l’espace consacré aux piétons et aux modes actifs de déplacement, comme le vélo.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [9.188540, 45.464664],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'newdelhi',
+            alignment: 'right',
+            hidden: false,
+            title: 'New Delhi : réduire le trafic grâce à la circulation alternée ',
+            image: 'images/newdelhi.jpg',
+            description: "<p>New Delhi est l’endroit le plus pollué de la planète. Le trafic, qui n’a cessé d’augmenter, est un facteur majeur de la pollution de l’air. D’autres facteurs y contribuent également, comme la poussière issue des chantiers de construction, les usines, les centrales électriques, la combustion du fioul et l’écobuage. Pour diminuer les taux de particules fines dangereuses, une ordonnance de 1998 de la cour suprême imposait aux véhicules de transport public de passer du diesel aux GNV (gaz naturel véhicule). D’autres mesures comprenant l’utilisation de l’essence sans plomb et la réduction du souffre dans le fioul ont été adoptées. Les normes légales concernant les niveaux de pollution tolérés pour les véhicules ont également été révisées. Par ailleurs, l’incinération de déchets est désormais passible de sanctions. Cependant, l’effet de ces mesures a été neutralisé par l’augmentation du nombre de véhicules. Il a pratiquement doublé à Delhi en dix ans, entre 2002 et 2012, augmentant de 97 %.  Officiellement, le kérosène est interdit à Delhi, mais la plupart des ménages utilisent le GPL pour la cuisine. En dépit des mesures imposant l’utilisation de carburants propres dans les transports en commun, la pollution est responsable de 10 000 à 30 000 décès par an à Delhi, selon le Centre indien pour la science et l’environnement. En novembre 2016, la pollution aux particules fines a atteint des sommets : son taux a été multiplié par 10 par rapport à la limite fixée. Cette crise était à l’origine de la mise en place de la circulation alternée. La circulation des voitures particulières a pu être limitée pendant une courte période, grâce à ce système alternant la circulation des voitures selon qu’elles soient munies d’une plaque d’immatriculation finissant par un chiffre pair ou impair. Cette mesure a provoqué une forte opposition et a rencontré de nombreux obstacles juridiques. Neuf personnes sur 10 se seraient opposées à sa mise en œuvre, mais une majorité d’entre elles a changé d’avis par la suite. Selon les autorités de New Delhi, la pollution a enregistré des baisses allant jusqu’à 25 % pendant les deux semaines d’application du dispositif et les embouteillages ont diminué. Outre la sensibilisation du public, la circulation alternée a permis d’améliorer l’efficacité et les conditions de circulation des véhicules de transport public. Selon les chiffres officiels, les bus qui doivent parcourir 200 km par jour, et qui n’arrivaient à en couvrir que 160, ont réussi, au cinquième jour de l’expérience, à en parcourir 220. Le nombre de passagers des bus est passé de 4,7 millions à 5,3 millions par jour. Depuis sa mise en place initiale, la circulation alternée est régulièrement réintroduite lors des pics de pollution, lorsque la qualité de l’air baisse considérablement.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [77.216721, 28.644800],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'nuremburg',
+            alignment: 'left',
+            hidden: false,
+            title: "Obtenir l'approbation du public à Nuremberg",
+            image: 'images/nuremberg.jpg',
+            description: "<p>Pour tenter de trouver des solutions aux embouteillages et à la pollution de l’air, le centre historique de Nuremberg a été progressivement piétonnisé à partir du début des années 1970. Ni le chaos qu’entrainerait, selon certains urbanistes, cette mesure ni la baisse de fréquentation prédite par les commerçants locaux n’ont eu lieu. La congestion supposée se déporter dans les rues adjacentes n’a pas non plus eu lieu. Le trafic n’a augmenté dans ces rues que de façon marginale, et le nombre de voitures a considérablement diminué.  En 1998, la dernière rue qui donnait accès au centre a été fermée, une mesure expérimentale largement contestée, notamment par les commerçants locaux. De nouveau, la congestion des rues adjacentes qui en découlerait n’a pas eu lieu. Au contraire, le trafic a été réduit d’environ 25 % en 12 mois, et n’a augmenté que de façon marginale dans les rues adjacentes. En 1998, ces mesures expérimentales ont été définitivement adoptées. Cette année-là, la pollution de l’air a baissé considérablement, les taux d’azote ayant chuté de près de 30 %. La ville a continué à améliorer la qualité de l’espace public dans le centre-ville grâce à de nouvelles mesures, qui ont entrainé une baisse du trafic deux fois plus importante que le taux estimé. Afin de mieux évaluer les effets de ces aménagements, qui avaient été précédés d’une large consultation publique, les flux de circulation ont été mesurés sur le long terme. Les embouteillages n’ont pas augmenté ailleurs dans la ville, au contraire, le trafic a continué à baisser dans les années qui ont suivi la mise en place des mesures. Le nombre de voitures particulières — qui était en augmentation — a baissé entre 1989 et 2000. On comptait 10 000 véhicules en moins dans les rues du centre-ville. </p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [11.0767, 49.4521],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'oslo',
+            alignment: 'right',
+            hidden: false,
+            title: 'Oslo ou le vélo en toute sécurité',
+            image: 'images/oslo.jpg',
+            description: "<p>La ville d’Oslo n’a eu à déplorer, en 2019, aucun accident de la circulation mortel impliquant des piétons ou des cyclistes. Une seule personne est morte en 2019 lorsqu’une voiture a heurté une barrière. En comparaison, en 1975, il y a eu 41 décès. Cette évolution est le résultat d’années d’efforts pour réduire le trafic dans les rues de la ville. En dépit de ces résultats exceptionnels, la politique de la ville pour se libérer de la voiture est de plus en plus contestée. Cette contestation est portée soit par des groupes qui n’ont pas pu s’adapter aux changements, soit par ceux qui ont peur des effets de la réduction des voitures sur leurs activités. Dans les faits, le centre d’Oslo a enregistré une augmentation de 10 % de la fréquentation en raison des mesures qui ont rendu les rues plus accueillantes pour les piétons.  Différentes mesures ont été mises en place par la ville : places de stationnement en surface remplacées par des bandes cyclables et des trottoirs pour les piétons ; nouveau mobilier urbain, bancs et villes miniatures (entre autres) ; rues principales fermées à la circulation ; péages et limitations de vitesse. Oslo a réussi à imposer ces changements et à contenir l’opposition en mettant d’abord en œuvre des projets pilotes. L’année 2019 a été marquée par un évènement majeur, symbole d’un changement culturel plus large : aucun enfant de moins de 15 ans n’a été victime d’un accident fatal de la circulation en Norvège. Les urbanistes considèrent désormais que les automobilistes n’ont la priorité. Le nombre de voyages effectués en transports en commun a augmenté de 63 % en 10 ans, entre 2007 et 2017. En 2017, 56 % des transports en commun fonctionnaient à l’énergie renouvelable. L’objectif était d’atteindre les 100 % en 2020. Les ferries fonctionnent aussi désormais à l’énergie électrique, l’ambition étant d’atteindre zéro émission en 2024 pour l’ensemble des bateaux de la ville.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [10.7522, 59.9139],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'pontevedra',
+            alignment: 'left',
+            hidden: false,
+            title: 'Pontevedra : la vie avant la voiture',
+            image: 'images/pontevedra.jpg',
+            description: "<p>Pontevedra, autrefois ville médiévale et en déclin de la Galice, a commencé sa mue en 1999, adoptant des mesures visant à <a href='https://www.dw.com/en/spain-pontevedra-the-car-free-city/av-48543395'>piétonniser son centre-ville</a>. Un mois après son élection, le maire Miguel Anxo Fernández Lores a transformé le centre-ville — dont la superficie est de 300 000 m2 — en y interdisant la circulation automobile et en l’ouvrant aux piétons. Lores voulait améliorer la qualité de la vie et l’accessibilité de la ville aux personnes vulnérables. </p><p>Avant son élection, le centre était embouteillé et pollué. Il était aussi dangereux pour les piétons, car près de 27 000 voitures le traversaient quotidiennement. Les trottoirs étaient constamment obstrués par les voitures en stationnement.</p><p>Depuis, la circulation y a chuté de 90 % et la pollution de l’air a considérablement diminué. Aujourd’hui, la grande majorité des personnes circulent dans le centre-ville à pied ou à vélo. Pour favoriser la marche à pied, des cartes d’orientation ont été installées partout dans le centre indiquant la durée du trajet d’un point à un autre. Les piétons ont toujours la priorité et, selon la police locale, les blessures et les accidents mortels causés par les voitures ont baissé de façon spectaculaire.</p><p>En même temps que la circulation a été interdite, l’espace public a été réaménagé pour éliminer les obstacles. Ainsi, les trottoirs d’anciennes rues et les bordures des chaussées ont été aplanis pour des rues dépourvues d’obstacles. Des bancs ont été installés, les espaces verts et les aires de jeux pour enfants ont augmenté et les éclairages de rue améliorés. Dans les zones où les voitures peuvent encore circuler, l’espace réservé aux piétons a doublé de volume pour permettre à deux personnes portant des parapluies ouverts de se dépasser. </p><p>La promotion des petites entreprises et des commerces locaux, ainsi que les mesures destinées à les protéger face aux grandes chaines, a contribué à leur attirer la sympathie du public et à convaincre les entreprises réticentes aux changements. Les véhicules de livraison sont autorisés à entrer dans le centre-ville pour faciliter l’activité des entreprises, mais leur durée de stationnement est limitée à 15 minutes. </p><p>L’ensemble de ces mesures a permis de réinjecter de la vie et de redresser la courbe démographique d’une population déclinante. « Pas de place pour la voiture » est désormais l’une des devises de la ville.</p><p>Image credit: <a href='https://en.wikipedia.org/wiki/File:Pazo_Mugartegui.jpg'>Bene Riobó</a> // CC BY-SA 4.0</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [-8.6446, 42.4299],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'portland',
+            alignment: 'right',
+            hidden: false,
+            title: 'Portland : réduire les déplacements en voiture',
+            image: 'images/portland.jpg',
+            description: "<p>La ville de Portland dans l’Oregon tente depuis plusieurs années de réduire la place de la voiture grâce au réaménagement de ses rues. Dans les deux décennies qui ont suivi 1990, la ville a réduit la part de la voiture, des camions et des fourgonnettes dans les déplacements de 10 % environ. Les trajets à vélo ou en transports en commun ont augmenté de presque 20 %. Le nombre de trajets à vélo a presque été multiplié par 6, et celui en transports en commun a augmenté de plus de 50 %. Entrepris à partir de 2008, les grands travaux d’aménagement cyclable ont couté le prix d’un mile (environ 1,5 km) de voies rapides urbaines. En 2018, la municipalité a mis en place le plan Central City in Motion (Centre-ville en mouvement) visant à réduire les embouteillages. Ce plan de 72 millions de dollars, constitué de 18 grands projets, prévoyait la suppression de 1000 places de parking. Chacun de ces 18 projets comprenait l’aménagement de nouvelles voies de bus et pistes cyclables, dont 48 km de pistes « sans stress ». La population de la ville devrait croitre de façon importante dans les années à venir, sans nouvelles modalités de transport, plus vertes, le trafic pourrait augmenter de 47 %. En adoptant ce plan, Portland a emboité le pas à Seattle, qui a vu la création de 60 000 emplois dans son centre-ville. Mais, contrairement à Seattle, en investissant massivement dans les transports en commun, Portland a réussi à maintenir au même niveau le nombre de voitures en circulation. En 2020, Portland a investi 10 millions de dollars supplémentaires, qu’elle a consacrés au Rose Lane Project, afin de créer des voies réservées exclusivement soit aux bus, soit aux voitures. Les conseillers municipaux de la ville ont aujourd’hui l’ambition de transformer le centre-ville en zone sans voitures. Avec près de 805 kilomètres de pistes cyclables praticables, ou en cours d’aménagement — pour une petite proportion d’entre elles — la ville possède le taux le plus élevé de déplacements effectués à vélo.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [-122.6750, 45.5051],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stockholm',
+            alignment: 'left',
+            hidden: false,
+            title: 'Stockholm : le péage urbain s’impose après une violente contestation',
+            image: 'images/stockholm.jpg',
+            description: "<p>En 2006, la ville de Stockholm en Suède a mis en place un système de péage urbain pour tenter de réduire le trafic routier. Ce système était très peu couteux et très efficace. Le tarif fixé à 2 euros par automobiliste a permis de réduire le trafic de 20 % aux heures de pointe. Au départ, ce péage routier avait suscité une vive opposition de la part de 70 % de la population. Par la suite, la situation a radicalement changé en 2011, cinq ans après la mise en place du péage. L’opposition s’était transformée en adhésion de 70 % de la population. Cette mesure a mis en évidence deux éléments importants : le premier est la vitesse à laquelle les automobilistes réagissent à ce type de mesures. Lorsque cette mesure avait été suspendue au milieu de l’année 2006, la circulation avait retrouvé, en 24 heures, ses niveaux d’avant.  Le second concerne la façon dont la population s’adapte aux mesures introduites. Certains ne se souvenaient plus de s’y être opposés au départ ou ne voulaient pas l’admettre. Ces résultats ont été mis en évidence par des études sur le changement d’attitude des automobilistes. Ils n’ont pas été corroborés, car un nombre important des automobilistes enquêtés prétendaient avoir toujours été en faveur des péages.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            location: {
+                center: [18.0686, 59.3293],
                 zoom: 11,
                 pitch: 60,
                 bearing: 0
@@ -267,71 +473,14 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'kajaani',
+            id: 'tallinn',
             alignment: 'left',
             hidden: false,
-            title: 'Kajaani : apaiser le centre-ville en diminuant le nombre de voitures',
-            image: 'images/kajaani.jpg',
-            description: "<p>La ville de Kajaani était déjà en déclin dans les années 1990. Les mesures pour interdire le centre-ville aux voitures ont fait l’objet de débats houleux pendant près de 20 ans. En 1996, la décision a été prise d’appliquer, à partir de 1998, les mesures de réduction du trafic dans le cadre d’un plan plus large visant à redynamiser le centre-ville. Après la mise en place de ces mesures, le trafic dans le centre ne s’est pas déporté vers les rues voisines, mais il a tout simplement « disparu », les habitants s’étant tournés vers les transports en commun et les mobilités actives. Les enquêtes conduites avant et après cette expérience ont montré un changement positif net dans l’attitude de la population vis-à-vis du centre-ville. Avant l’introduction des changements, 60 % des habitants affirmaient que la ville était un endroit agréable à vivre, 47 % qualifiaient le centre de « beau ». À la suite des transformations, ces proportions ont crû de 20 % et de 8 % respectivement.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
+            title: 'Tallinn',
+            image: 'images/tallinn.jpg',
+            description: "<p>On dit que « rien n’est gratuit en ce bas monde », mais<a href='https://www.rapidtransition.org/stories/free-public-transport-the-new-global-initiative-clearing-the-air-roads-and-helping-keep-climate-targets-on-track/'> la gratuité des transports publics </a>s’impose désormais comme une réalité. L’une des premières villes à prendre des mesures pour l’amélioration de l’environnement et des déplacements en ville est Tallinn, la capitale de l’Estonie.</p><p>Pour les autorités de la ville, ces mesures étaient destinées à inciter les habitants à utiliser le tram et le bus plutôt que la voiture, tout en soutenant l’économie locale. Elles avaient été expliquées aux habitants avant d’être soumises à un référendum et<a href='https://www.bbc.co.uk/news/world-europe-17517106'> approuvées à 75 %</a>. Introduites au début des années 2000, elles ont abouti en 2013 à la gratuité des transports publics pour l’ensemble des habitants de la ville. Tallinn devient ainsi la première capitale européenne à prendre une telle initiative. </p><p>Les<a href='https://ec.europa.eu/environment/ecoap/about-eco-innovation/good-practices/estonia/20130617-capital-of-free-public-transport_fr'> effets immédiats ont été positifs</a>. Durant les premiers mois, le trafic a diminué de 15 % et l’utilisation des transports publics a augmenté de 12,6 %, quand celle de la voiture a baissé de 9 %. Cette initiative a également eu un effet inattendu. Elle a attiré des milliers de personnes qui se sont domiciliées à Tallinn, contribuant ainsi à une hausse des revenus de la ville de 20 millions d’euros par an.</p><p>Au départ, plusieurs responsables politiques étaient sceptiques, mais aucun des partis principaux n’a proposé le retrait du projet.  </p><p>Afin d’appuyer la transition, la municipalité a diminué les places de stationnement et a augmenté les tarifs. L’ensemble du pays s’aligne désormais sur Tallinn, l’Estonie ayant annoncé en 2018 son ambition d’introduire<a href='https://www.economist.com/europe/2019/05/09/free-public-transport-in-estonia'> la gratuité des transports publics à l’échelle nationale</a>. Des bus gratuits ont été mis en place dans 11 des 15 régions (comtés) que compte le pays. Le Luxembourg lui a emboité le pas, décrétant en 2020 la gratuité des transports sur l’ensemble de son territoire. Durant la première année de la pandémie de Covid-19 le trafic dans la ville<a href='https://news.err.ee/1182868/effects-of-the-pandemic-in-tallinn-fewer-cars-and-emptier-buses'> a été réduit de 17 % supplémentaire</a>. Le temps dira si cette évolution permettra à Tallinn de se débarrasser de la voiture.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
             location: {
-                center: [27.7278, 64.2222],
-                zoom: 11,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'ghent',
-            alignment: 'right',
-            hidden: false,
-            title: 'À Gand, les voitures n’ont pas la priorité',
-            image: 'images/ghent.jpg',
-            description: "<p>Gand est devenue, grâce au courage politique de ses gouvernants et à leur ténacité face aux oppositions, un exemple en matière de politique de transports. Les rues et les places étroites de cette ville médiévale étaient saturées par le trafic dès les années 1980. En 1987, la ville a tenté de prendre des mesures pour réduire le trafic et les embouteillages, la pollution de l’air et la pollution sonore, et pour améliorer les infrastructures cyclables, piétonnes et les transports en commun. Le plan adopté a cependant été abandonné cinq mois après sa mise en place en raison d’une contestation violente de la part des commerçants.  Un plan vélo a été adopté en 1993, suivi en 1997 d’un plan mobilité concernant le centre-ville. Avant l’adoption du plan, 300 auditions publiques ont eu lieu en 1996, dans le cadre d’une consultation générale concernant les mesures proposées. Les fermetures de rues prévues avaient été également communiquées au préalable à travers différents moyens et supports de communication : radio, télévision, cartes et affiches. Les foyers ont été informés des réformes par courrier et une ligne téléphonique d’information a été installée. Du jour au lendemain, en novembre 1997, et en dépit de la contestation, le centre-ville a été interdit au trafic.  Les embouteillages qu’entraineraient de telles mesures, contre lesquels les opposants ont tant mis en garde, n’ont jamais eu lieu. Le nombre de voyages en transports en commun a augmenté, le centre a été piétonnisé et investi de diverses activités culturelles, pour le rendre plus accueillant et pour attirer les habitants et les visiteurs. En plus de l’infrastructure cyclable, notamment 300 km de pistes et 7 500 vélos de location, la ville a œuvré à instiller la culture du vélo à travers des expositions d’arts visant à susciter l’intérêt du public pour le vélo. À Gand, il est désormais plus rapide de se déplacer à vélo qu’en voiture. En 10 ans, la part des déplacements à vélo est passée de 12 % à 20 %, plus du double de la moyenne nationale. L’ambition de la ville, qui a reçu en 2012 le prix international Eurostar Ashden pour la mobilité durable, est de devenir une ville zéro carbone en 2050.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
-            location: {
-                center: [3.7174, 51.0543],
-                zoom: 11,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'oslo',
-            alignment: 'left',
-            hidden: false,
-            title: 'Oslo ou le vélo en toute sécurité',
-            image: 'images/oslo.jpg',
-            description: "<p>La ville d’Oslo n’a eu à déplorer, en 2019, aucun accident de la circulation mortel impliquant des piétons ou des cyclistes. Une seule personne est morte en 2019 lorsqu’une voiture a heurté une barrière. En comparaison, en 1975, il y a eu 41 décès. Cette évolution est le résultat d’années d’efforts pour réduire le trafic dans les rues de la ville. En dépit de ces résultats exceptionnels, la politique de la ville pour se libérer de la voiture est de plus en plus contestée. Cette contestation est portée soit par des groupes qui n’ont pas pu s’adapter aux changements, soit par ceux qui ont peur des effets de la réduction des voitures sur leurs activités. Dans les faits, le centre d’Oslo a enregistré une augmentation de 10 % de la fréquentation en raison des mesures qui ont rendu les rues plus accueillantes pour les piétons.  Différentes mesures ont été mises en place par la ville : places de stationnement en surface remplacées par des bandes cyclables et des trottoirs pour les piétons ; nouveau mobilier urbain, bancs et villes miniatures (entre autres) ; rues principales fermées à la circulation ; péages et limitations de vitesse. Oslo a réussi à imposer ces changements et à contenir l’opposition en mettant d’abord en œuvre des projets pilotes. L’année 2019 a été marquée par un évènement majeur, symbole d’un changement culturel plus large : aucun enfant de moins de 15 ans n’a été victime d’un accident fatal de la circulation en Norvège. Les urbanistes considèrent désormais que les automobilistes n’ont la priorité. Le nombre de voyages effectués en transports en commun a augmenté de 63 % en 10 ans, entre 2007 et 2017. En 2017, 56 % des transports en commun fonctionnaient à l’énergie renouvelable. L’objectif était d’atteindre les 100 % en 2020. Les ferries fonctionnent aussi désormais à l’énergie électrique, l’ambition étant d’atteindre zéro émission en 2024 pour l’ensemble des bateaux de la ville.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
-            location: {
-                center: [10.7522, 59.9139],
-                zoom: 11,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'medellin',
-            alignment: 'right',
-            hidden: false,
-            title: 'Medellín : plus de transports et d’espace publics et moins de violence',
-            image: 'images/medellin.jpg',
-            description: "<p>Medellín, deuxième plus grande ville de Colombie, illustre parfaitement la façon dont la réinvention audacieuse de l’espace public et l’innovation dans les transports en commun permettent de faire face aux menaces et aux obstacles. Avant de connaître une incroyable transformation dans les années 2000, Medellín était au début des années 1990, la ville la plus violente du monde. Elle est aujourd’hui mondialement reconnue comme un lieu de tourisme et d’innovation avec une société civile très active. L’architecture de la ville et ses infrastructures publiques inspirent aujourd’hui les urbanistes du monde entier. Cette transformation a été rendue possible grâce à la collaboration d’universitaires, d’acteurs locaux et d’entrepreneurs à la fin des années 1990, qui ont travaillé avec la population pour trouver des solutions aux problèmes de la ville. Ensemble, ils ont proposé d’investir dans l’éducation, les infrastructures et les espaces publics de la ville. Ce groupe a pris le nom de Compromiso Ciudadano (Engagement citoyen), devenu depuis un parti politique. En 2003, le candidat du parti aux élections municipales, Sergio Farjado, a été élu grâce aux propositions de son mouvement. Farjado a consacré son mandat à « régler la dette sociale et historique » envers les quartiers les plus pauvres de la ville. Les réformes conduites ont notamment permis la création de nouveaux espaces publics, des écoles, des parcs et des bibliothèques publiques. Elles ont aussi créé des subventions destinées aux commerçants installés dans les quartiers les plus pauvres de la ville.  Le processus participatif mis en place pour réinventer la ville a permis l’émergence d’une culture civique dynamique, toujours vivante. L’un des éléments essentiels à cette transformation sociale et sécuritaire est la transformation de l’espace physique, devenu plus inclusif. Ce processus a été facilité par la nouvelle constitution adoptée en 1991, reconnaissant l’espace public comme un droit constitutionnel. Les maires de la ville se sont appuyés sur cet article pour conduire leurs réformes.  Aujourd’hui, la ville de Medellín possède le réseau de transports en commun durable le plus évolué de Colombie. La construction d’une ceinture verte autour de la ville a permis d’augmenter et d’améliorer la qualité des espaces verts dans la ville.</p><p><a href='#minimap' class='anchor'>Retour à la minicarte</a></p>",
-            location: {
-                center: [-75.5658, 6.2476],
+                center: [24.754, 59.437],
                 zoom: 11,
                 pitch: 60,
                 bearing: 0
